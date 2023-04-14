@@ -116,7 +116,7 @@ public class ProjetoCalculoImposto {
         }
         
         //Cálculo Final
-        double calculoFinal = salario - calculoFgts - calculoImposto;
+        double calculoFinal = salario - calculoImposto;
         System.out.println("Salário líquido é: " + calculoFinal);
     }
         
